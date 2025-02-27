@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ranking Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .ranking-container {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .ranking-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .ranking-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        .ranking-item:last-child {
+            border-bottom: none;
+        }
+        .rank {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .item-name {
+            font-size: 1.2em;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Top 10 Rankings</h1>
+    <p>Explore the best rankings in different categories!</p>
+</header>
+
+<nav>
+    <a href="#movies">Top Movies</a>
+    <a href="#sports">Top Athletes</a>
+    <a href="#products">Top Products</a>
+</nav>
+
+<section id="movies" class="ranking-container">
+    <h2>Top 10 Movies</h2>
+    <div class="ranking-item">
+        <span class="rank">1.</span>
+        <span class="item-name">The Shawshank Redemption</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">2.</span>
+        <span class="item-name">The Godfather</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">3.</span>
+        <span class="item-name">The Dark Knight</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">4.</span>
+        <span class="item-name">Pulp Fiction</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">5.</span>
+        <span class="item-name">The Lord of the Rings: The Return of the King</span>
+    </div>
+    <!-- Add more ranking items here -->
+</section>
+
+<section id="sports" class="ranking-container">
+    <h2>Top 10 Athletes</h2>
+    <div class="ranking-item">
+        <span class="rank">1.</span>
+        <span class="item-name">Michael Jordan</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">2.</span>
+        <span class="item-name">Serena Williams</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">3.</span>
+        <span class="item-name">LeBron James</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">4.</span>
+        <span class="item-name">Usain Bolt</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">5.</span>
+        <span class="item-name">Cristiano Ronaldo</span>
+    </div>
+    <!-- Add more ranking items here -->
+</section>
+
+<section id="products" class="ranking-container">
+    <h2>Top 10 Products</h2>
+    <div class="ranking-item">
+        <span class="rank">1.</span>
+        <span class="item-name">iPhone 15</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">2.</span>
+        <span class="item-name">Tesla Model S</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">3.</span>
+        <span class="item-name">Sony PlayStation 5</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">4.</span>
+        <span class="item-name">Apple MacBook Pro</span>
+    </div>
+    <div class="ranking-item">
+        <span class="rank">5.</span>
+        <span class="item-name">Samsung Galaxy S23</span>
+    </div>
+    <!-- Add more ranking items here -->
+</section>
+
+<footer>
+    <p>&copy; 2025 Ranking Website. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
